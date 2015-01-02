@@ -1,0 +1,3 @@
+armv7 requires a compile pass and a link pass for some reason
+$CC $CFLAGS -c file1 file2 etc
+$CC $ARCH_LINK file1.o file2.o etc
